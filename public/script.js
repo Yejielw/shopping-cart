@@ -43,6 +43,7 @@ $('.add-to-cart').on('click', function () {
 
 $('.clear-cart').on('click', function () {
   clearCart();
+  cart = [];
 });
 
 // update the cart as soon as the page loads!
